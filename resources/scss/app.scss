@@ -1,0 +1,52 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.btn-inicio{
+    background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+border: 1px solid #9C7E37;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.btn-crear{
+    background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+border: 1px solid #A5A5A5;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.body{
+    font-family: Roboto
+}
+
+.lineas {
+    line-height: 0.1;
+    text-align: center;
+  }
+  .lineas span {
+    display: inline-block;
+    position: relative;  
+  }
+  .lineas span:before,
+  .lineas span:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    border-bottom: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+    top: 0;
+    width: 100px
+}
+.lineas span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .lineas span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  footer{
+    background: linear-gradient(180deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 50.49%);
+opacity: 0.3;
+  }
